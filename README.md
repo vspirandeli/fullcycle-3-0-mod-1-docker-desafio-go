@@ -46,7 +46,7 @@ O Comando abaixo irá baixar a imagem docker
 docker pull vspirandeli/desafio_full_cycle_docker_golang
 ```
 
-Para executar e automaticamente remover a container, digite:
+Para executar e automaticamente remover o container, digite:
 ```bash
 docker run --rm vspirandeli/desafio_full_cycle_docker_golang
 ```

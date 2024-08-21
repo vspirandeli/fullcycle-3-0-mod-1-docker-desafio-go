@@ -6,7 +6,7 @@
 
 ## Endereço da imagem no Docker Hub
 
-[Acessar Imagem Docker](https://hub.docker.com/repository/docker/vspirandeli/desafio_full_cycle_docker_golang:latest)
+[Acessar página no DockerHub](https://hub.docker.com/r/vspirandeli/desafio_full_cycle_docker_golang)
 
 ## Descrição do desafio
 
@@ -36,3 +36,17 @@ Divirta-se!
 1) Imprimir em tela: Full Cycle Rocks !!
 2) Imagem docker ter menos de 2MBs.
 3) Subir a imagem no Docker Hub.
+
+## Como utilizar
+
+Você precisa ter o Docker instalado na máquina!
+
+O Comando abaixo irá baixar a imagem docker
+```bash
+docker pull vspirandeli/desafio_full_cycle_docker_golang
+```
+
+Para executar e automaticamente remover a container, digite:
+```bash
+docker run --rm vspirandeli/desafio_full_cycle_docker_golang
+```
